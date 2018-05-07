@@ -2,9 +2,8 @@ def hello_t(array)
   i = 0 
     while 1<array.length 
     yield array[i]
-      i +=1 
-    end
-end
+      i += 1 
+  end
 
 # call your method here!
 # hello_t(["Tim", "Tom", "Jim"]) do |name|
